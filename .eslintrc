@@ -1,0 +1,14 @@
+extends: airbnb
+rules:
+    max-len: [2, 100, 2]
+    func-names: 0
+    semi: [2, never]
+
+    import/extensions: 0
+    import/no-extraneous-dependencies: ["error", {"devDependencies": true}]
+settings:
+    import/ignore:
+        - node_modules
+    import/resolver: webpack
+env:
+    mocha: true

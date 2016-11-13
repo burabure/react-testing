@@ -1,0 +1,10 @@
+{
+  "presets": ["latest", "react", "stage-3"],
+  "env": {
+    "test": {
+      "plugins": [
+        "babel-plugin-webpack-alias",
+      ]
+    }
+  }
+}
